@@ -51,6 +51,8 @@ At the end, your Copilot Studio agent can connect to the MCP server endpoint and
 - A working connection (with a validation prompt)
 
 ---
+![Architecture Overview](./img/Overview.png)
+---
 
 ## Architecture
 
@@ -59,11 +61,6 @@ Copilot Studio Agent
 → **Microsoft MCP Server for Enterprise** (`https://mcp.svc.cloud.microsoft/enterprise`)  
 ↔ OAuth 2.0 (Manual) via **Microsoft Entra ID** authorize/token endpoints  
 ↔ Connection/consent (often visible via **Power Automate connections** during troubleshooting)
-
----
-
-![Request API permissions 2](./img/Overview.png)
-
 
 ---
 
@@ -254,7 +251,7 @@ Microsoft Learn describes MCP scopes that map to Graph scopes.
 
 ---
 
-![Request API permissions](./img/AddTool2.png)
+![Add Tool 2](./img/AddTool2.png)
 
 
 4. Fill in the configuration below
@@ -276,11 +273,11 @@ Microsoft Learn describes MCP scopes that map to Graph scopes.
 
 ---
 
-![Request API permissions](./img/AddModelContextProtocolServer.png)
+![MCPTool](./img/AddModelContextProtocolServer.png)
 
 ---
 
-![Request API permissions](./img/MCPAuth.png)
+![MCP Auth](./img/MCPAuth.png)
 
 5. Click **Create**
 6. **Copy the Redirect URL and wait before clicking Next**
@@ -319,22 +316,22 @@ Microsoft Learn describes MCP scopes that map to Graph scopes.
 
 ---
 
-![Request API permissions](./img/MCPToolCreatedSuccess.png)
+![MCPToolCreatedSuccess](./img/MCPToolCreatedSuccess.png)
 
 ---
 
 2. Complete the connection flow
 
 ---
-![Request API permissions](./img/MCPToolConnectionSuccess.png)
+![MCPToolCreatedSuccess](./img/MCPToolConnectionSuccess.png)
 
 ---
 
-![Request API permissions](./img/CopilotStudioMcpTool.png)
+![MCPToolCreatedSuccess](./img/CopilotStudioMcpTool.png)
 
 ---
 
-![Request API permissions](./img/MCPToolCreatedSuccess.png)
+![MCPToolCreatedSuccess](./img/MCPToolCreatedSuccess.png)
 
 ---
 
